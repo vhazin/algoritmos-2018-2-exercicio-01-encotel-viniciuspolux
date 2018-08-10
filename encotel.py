@@ -1,5 +1,5 @@
 nums = ''
-texto = str.upper(input('Digite o texto: '))
+texto = (input('Digite o texto: ')).upper()
 
 for i in texto:
     if i == 'A' or i == 'B' or i == 'C':
